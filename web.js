@@ -2,7 +2,7 @@ require('dotenv').config({silent: true});
 var net = require('net');
 var HOST = '10.0.0.183';   
 console.log('create process.env', process.env);
-var PORT = process.env.PORT || 5000
+var PORT = process.env.PORT || 80
 var http = require('http');
 var client = new net.Socket();
 
