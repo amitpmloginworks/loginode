@@ -1,4 +1,4 @@
-require('dotenv').config({silent: true});
+
 var net = require('net');
 var HOST = '10.0.0.183';   
 console.log('create process.env', process.env);
