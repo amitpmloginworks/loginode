@@ -10,7 +10,7 @@ var client = new net.Socket();
 http.createServer(function (req, res) {
   console.log('create server');
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('manager changed!');
+  res.end('text changed!');
  
   client.connect(PORT, HOST, function() {
   console.log('changed'+process.env.port)
